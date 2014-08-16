@@ -1,7 +1,7 @@
 def fiboseq(n):
-    __doc__ = '''
-Retorna uma lista da sequencia de Fibonacci com n numeros de algarismos.
-'''
+    '''
+    Retorna uma lista da sequencia de Fibonacci com n numeros de algarismos.
+    '''
     lista = []
     v = 1
     for i in range(n):
@@ -14,9 +14,9 @@ Retorna uma lista da sequencia de Fibonacci com n numeros de algarismos.
 
 
 def fiboseqate(n):
-    __doc__ = '''
-Retorna uma lista da sequencia de Fibonacci com numeros menores que n.
-'''
+    '''
+    Retorna uma lista da sequencia de Fibonacci com numeros menores que n.
+    '''
     lista = []
     v = 1
     while (v < n):
