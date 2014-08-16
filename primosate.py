@@ -15,5 +15,5 @@ def primosAte(valorMaximo, show=None):
 
 
 if __name__ == '__main__':
-    valorMaximo = raw_input('Digite o valor maximo de busca: ')
+    valorMaximo = int(raw_input('Digite o valor maximo de busca: '))
     primosAte(valorMaximo, True)
